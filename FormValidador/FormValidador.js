@@ -1,5 +1,5 @@
 (function($) {
-	$.fn.jFotoForm = function(settings) {
+	$.fn.FormValidator = function(settings) {
 
 		var fn = null;
 		
@@ -206,7 +206,7 @@
 
 				} else {
 
-					return 'campo inválido';
+					return 'campo invï¿½lido';
 				}
 			} else {
 
@@ -223,7 +223,7 @@
 			
 			if ($(campo).attr('tmMaximo') != null && $(campo).val().length >= $(campo).attr('tmMaximo')) {
 				
-				return 'o campo precisa ter no máximo ' + $(campo).attr('tmMaximo') + ' caracteres';
+				return 'o campo precisa ter no mï¿½ximo ' + $(campo).attr('tmMaximo') + ' caracteres';
 			}		
 			
 			return null;
@@ -235,7 +235,7 @@
 			
 			if ($(campo).val() != senha) {
 				
-				return "senha não confere";				
+				return "senha nï¿½o confere";				
 			}
 			
 			return "";
