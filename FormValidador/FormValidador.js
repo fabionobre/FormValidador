@@ -26,6 +26,8 @@
 															
 				if (passou && settings.ajax == true) {
 					
+                    // teste de alteração
+                    
 					var url = $(this).attr('action');
 					var dados = $(this).serialize();
 
